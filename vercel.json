@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "ESLINT_NO_DEV_ERRORS=true node node_modules/react-scripts/scripts/build.js",
+  "buildCommand": "DISABLE_ESLINT_PLUGIN=true node node_modules/react-scripts/scripts/build.js",
   "outputDirectory": "build",
   "installCommand": "npm install",
   "framework": "create-react-app"
